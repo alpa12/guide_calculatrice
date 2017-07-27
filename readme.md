@@ -12,7 +12,7 @@
 
 ## Auteurs
 
-David Beauchemin <david.beauchemin.5@ulaval.ca> 
-Alexandre Parent <courriel>
+David Beauchemin <david.beauchemin.5@ulaval.ca> <br>
+Alexandre Parent <alexandre.parent.12@ulaval.ca>
 
 *********************************
