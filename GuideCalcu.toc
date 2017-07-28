@@ -1,0 +1,12 @@
+\select@language {french}
+\contentsline {part}{I\hspace {1em}TI-30XS Multiview}{3}{part.1}
+\contentsline {section}{\numberline {1}Fonctions \IeC {\`a} conna\IeC {\^\i }tre d\IeC {\`e}s le d\IeC {\'e}but}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}D\IeC {\'e}cimal \IeC {\`a} fraction}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Les fonctions de probabilit\IeC {\'e}}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Garder une valeur en m\IeC {\'e}moire}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}La fonction \texttt {Table}}{4}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}La fonction \texttt {Data}}{4}{subsection.1.5}
+\contentsline {section}{\numberline {2}Fonctions statistiques}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Entrer des donn\IeC {\'e}es}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Utiliser \texttt {Stat} avec une variable}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Utiliser \texttt {Stat} avec deux variables}{6}{subsection.2.3}
