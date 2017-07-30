@@ -6,14 +6,14 @@ Un symbole + signifie prochaine touche à \textit{cliquer} est la suivante.
 
 \end{enumerate}
 
-\section{Format d'affichage, valeur future, valeur actualisée et taux nominaux}
+\subsection{Format d'affichage, valeur future, valeur actualisée et taux nominaux}
 
 \textit{*Chapitre 1 dans le livre}
 
-\subsection{Format d'affichage}
+\subsubsection{Format d'affichage}
 \fbox{2ND} + \fbox{format} + nombre de décimale + \fbox{enter}
 
-\subsection{Valeur future}
+\subsubsection{Valeur future}
 \begin{enumerate}
 
 \item Accumulation simple
@@ -44,18 +44,18 @@ Ne pas oublier de \textit{clear} les valeurs!!
 
 \end{enumerate}
 
-\subsection{Trouver le taux d'intérêt}
+\subsubsection{Trouver le taux d'intérêt}
 Nombre de périodes + \fbox{N} + montant à accumuler + \fbox{PV} + montant futur + \fbox{FV} + \fbox{CPT} + \fbox{I$ / $Y }
 
-\subsection{Trouver le nombre de période}
+\subsubsection{Trouver le nombre de période}
 Taux d'intérêt + \fbox{I$ / $Y } + valeur présente + \fbox{+$ / $- } + \fbox{PV} + montant future + \fbox{FV} + \fbox{CPT} + \fbox{N}
 
-\subsection{Taux nominal et TVM}
+\subsubsection{Taux nominal et TVM}
 Comme les taux nominaux sont divisés par le nombre de périodes, on peut simplement faire : \\
 Nombre périodes + \fbox{N} + ($i^{(m)} \div m$) + \fbox{=} + \fbox{I$ / $Y} + valeur à accumulé + \fbox{+$ / $-} + \fbox{PV} + \fbox{CPT} + \fbox{FV}
 \\
 
-\subsection{Taux équivalent}
+\subsubsection{Taux équivalent}
 
 Convertir un taux nominal en effectif : 
 
@@ -65,3 +65,41 @@ Convertir un taux nominal en effectif :
 \\
 \\ Pour trouver un taux d'escompte, convertir \emph{d} en \emph{i}.
 
+\subsection{Annuité et calculatrice}
+\label{Annuité et calculatrice}
+
+Pour l'utilisation de TVM, voir section \ref{sec:accumulation}, la majorité des notions de cette section sont identique pour les annuités.
+
+\subsubsection{Annuité due et \textit{Begin}}
+\label{Begin}
+
+La calculatrice possède une fonction \textit{Begin} qui permet de calculer l'annuité avec un paiement en début de période sans manipulation algébrique. Par contre, il faut la remettre à \textit{End} pour revenir à une annuité immédiate. Voici comment faire ;
+\fbox{2ND} + \fbox{BGN} + \fbox{2ND} + \fbox{SET}.
+Refaire la même procédure pour revenir à \textit{End}.
+
+\subsubsection{Annuité à progression arithmétique}
+\label{annuité et TI-30XS}
+Voici une astuce pour calculer à partir des formules de la section \ref{Sub:Chap4:increasing} et \ref{Sub:Chap4:decreasing}. On utilise la calculatrice TI-30XS multiview, afin de ne pas se mélanger dans l'équation on utilise la touche \fbox{$\frac{n}{d}$}.
+
+\subsection{Amortissement}
+\label{Amortissement}
+
+\subsubsection{TVM et fonction d'amortissement}
+\label{ann:chap:amortissement}
+Tout d'abord, on enregistre les informations dans la fonction TVM (\textit{N}, \textit{$I/Y$}, \textit{PV}, \textit{$-$PMT}). Par la suite, \fbox{2ND} + \fbox{AMORT} + (P1) = paiement désiré + \fbox{ENTER} + \fbox{$\downarrow$} + (P2) = paiement désiré (le même) + \fbox{ENTER}, par la suite avec les flèches on peut voir le principal, la balance et l'intérêt payé. Si on veut changer de paiement, on retourne à P1 et P2 pour modifier l'information\footnote{ASM p 313-314}. 
+\\Note : P1 indique la ligne de début et P2 indique la ligne de fin. Donc, si P1 = 1 et P2= 3, il va s'agir du capital et de l'intérêt payé entre 1 et 3.
+
+\subsection{Obligations}
+\label{obligation}
+
+Deux méthodes d'approche pour résoudre le prix des obligations avec la calculatrice :
+
+\subsubsection{TVM et obligation}
+\label{anex:TVM et obligation}
+
+La méthode TVM :  nombre de coupons + \fbox{N} + taux d'intérêt + \fbox{I/Y} + montant du coupon + \fbox{PMT} + Valeur de rachat + \fbox{FV} + \fbox{CPT} + \fbox{PV}
+
+\subsubsection{\textit{Bond worksheet}}
+\label{anex:bond worksheet}
+
+La meilleure source pour cette section est le livre d'instruction de la calculatrice voir le lien \href{https://drive.google.com/open?id=0B6kXivc6X9LIMXI4T1QtcTFQNzA}{page 65}. 
